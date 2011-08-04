@@ -1,0 +1,17 @@
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\bin\Release\TouchToggle.exe
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\bin\Release\TouchToggle.pdb
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\TouchToggle.MainForm.resources
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\TouchToggle.exe
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Release\TouchToggle.pdb
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.exe
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.pdb
+D:\Source\TouchToggle\TouchToggle\bin\Release\TouchToggle.exe
+D:\Source\TouchToggle\TouchToggle\bin\Release\TouchToggle.pdb
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.Icons.resources
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.MainForm.resources
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Source\TouchToggle\TouchToggle\obj\x86\Release\GenerateResource.write.1.tlog

@@ -1,0 +1,17 @@
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\bin\Debug\TouchToggle.exe
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\bin\Debug\TouchToggle.pdb
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\TouchToggle.exe
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\TouchToggle.pdb
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\TouchToggle.MainForm.resources
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Micah\AppData\Local\Temporary Projects\Project1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Source\TouchToggle\TouchToggle\bin\Debug\TouchToggle.exe
+D:\Source\TouchToggle\TouchToggle\bin\Debug\TouchToggle.pdb
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.MainForm.resources
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.exe
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.pdb
+D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.Icons.resources
