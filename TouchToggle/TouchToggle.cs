@@ -16,7 +16,7 @@ namespace TouchToggle
 		[STAThread]
 		public static void Main()
 		{
-			Application.Run(new MainForm());\\\\
+			Application.Run(new MainForm());
 		}
 
 		public MainForm()
@@ -37,7 +37,7 @@ namespace TouchToggle
 			// The Icon property sets the icon that will appear in the systray for this application.
 			mIconEnabled = new Icon(Icons.Green_Hand, 40, 40);
 			mIconDisabled = new Icon(Icons.Red_Hand, 40, 40);
-			mNotifyIcon.Icon = mIconEnabled;
+			SetIcon();
 
 			// The ContextMenu property sets the menu that will appear when the systray icon is right clicked.
 			mNotifyIcon.ContextMenu = mContextMenu;
@@ -47,7 +47,7 @@ namespace TouchToggle
 			mNotifyIcon.Visible = true;
 
 			// Handle the click event.
-			mNotifyIcon.Click += new EventHandler(mNotifyIcon_Click);
+			mNotifyIcon.MouseClick += new MouseEventHandler(mNotifyIcon_Click);
 		}
 
 		protected override void Dispose(bool pDisposing)
@@ -61,10 +61,10 @@ namespace TouchToggle
 			Close();
 		}
 
-		private void mNotifyIcon_Click(Object pSender, EventArgs pEventArgs)
+		private void mNotifyIcon_Click(Object pSender, MouseEventArgs pEventArgs)
 		{
-			if (ToggleTouchMode()) mNotifyIcon.Icon = mIconEnabled;
-			else mNotifyIcon.Icon = mIconDisabled;
+			if (pEventArgs.Button != MouseButtons.Left) return;
+			ToggleTouchMode();
 		}
 
 		private Boolean ToggleTouchMode()
@@ -85,6 +85,30 @@ namespace TouchToggle
 				lKey.Close();
 				return false;
 			}
+		}
+
+		private Int32 GetCurrentRegistryValue()
+		{
+			RegistryKey lKey = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Wisp\Touch", true);
+			return (Int32)lKey.GetValue("TouchGate");
+		}
+
+		protected override void WndProc(ref Message pMessage)
+		{
+			base.WndProc(ref pMessage);
+
+			switch (pMessage.Msg)
+			{
+				case (int)User32Utils.WM.SETTINGCHANGE:
+					SetIcon();
+					break;
+			}
+		}
+
+		private void SetIcon()
+		{
+			if (GetCurrentRegistryValue() == 1) mNotifyIcon.Icon = mIconEnabled;
+			else mNotifyIcon.Icon = mIconDisabled;
 		}
 	}
 }

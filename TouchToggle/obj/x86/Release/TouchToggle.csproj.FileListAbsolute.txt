@@ -15,3 +15,12 @@ D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.Icons.resources
 D:\Source\TouchToggle\TouchToggle\obj\x86\Release\TouchToggle.MainForm.resources
 D:\Source\TouchToggle\TouchToggle\obj\x86\Release\GenerateResource.read.1.tlog
 D:\Source\TouchToggle\TouchToggle\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Source\touch-toggle\TouchToggle\bin\Release\TouchToggle.exe
+D:\Source\touch-toggle\TouchToggle\bin\Release\TouchToggle.pdb
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\TouchToggle.Icons.resources
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\TouchToggle.MainForm.resources
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\TouchToggle.exe
+D:\Source\touch-toggle\TouchToggle\obj\x86\Release\TouchToggle.pdb
