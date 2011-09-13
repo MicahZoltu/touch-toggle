@@ -15,8 +15,6 @@ D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.exe
 D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.pdb
 D:\Source\TouchToggle\TouchToggle\obj\x86\Debug\TouchToggle.Icons.resources
-D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.exe
-D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.pdb
 D:\Source\touch-toggle\TouchToggle\bin\Debug\TouchToggle.exe
 D:\Source\touch-toggle\TouchToggle\bin\Debug\TouchToggle.pdb
 D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\ResolveAssemblyReference.cache
@@ -24,3 +22,5 @@ D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.Icons.resources
 D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.MainForm.resources
 D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.exe
+D:\Source\touch-toggle\TouchToggle\obj\x86\Debug\TouchToggle.pdb

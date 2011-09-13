@@ -29,6 +29,7 @@ namespace TouchToggle
 			// Set up how the form should be displayed.
 			Visible = false;
 			ShowInTaskbar = false;
+			FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			WindowState = FormWindowState.Minimized;
 
 			// Create the NotifyIcon.
