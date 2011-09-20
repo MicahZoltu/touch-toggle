@@ -27,10 +27,11 @@ namespace TouchToggle
 			mContextMenu.MenuItems.Add("E&xit", mMenuExit_Click);
 
 			// Set up how the form should be displayed.
+			StartPosition = FormStartPosition.Manual;
+			Location = new Point(int.MaxValue, int.MaxValue);
 			Visible = false;
 			ShowInTaskbar = false;
-			FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-			WindowState = FormWindowState.Minimized;
+			FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
 
 			// Create the NotifyIcon.
 			mNotifyIcon = new NotifyIcon();
